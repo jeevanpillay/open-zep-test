@@ -2,4 +2,7 @@
 /node_modules
 
 # contracts
-/build/contracts
+/build
+
+# others
+package-lock.json

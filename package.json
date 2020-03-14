@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lpfloyd/open-zep-test#readme",
   "devDependencies": {
-    "@openzeppelin/cli": "^2.7.2"
+    "@openzeppelin/cli": "^2.7.2",
+    "@openzeppelin/contracts": "^2.5.0"
   }
 }
