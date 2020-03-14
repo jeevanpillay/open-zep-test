@@ -20,5 +20,9 @@
     "@openzeppelin/cli": "^2.7.2",
     "@openzeppelin/contracts": "^2.5.0",
     "ganache-cli": "^6.9.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "web3": "^1.2.6"
   }
 }
