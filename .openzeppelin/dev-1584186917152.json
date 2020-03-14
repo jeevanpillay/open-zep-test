@@ -1,0 +1,52 @@
+{
+  "contracts": {
+    "Box": {
+      "address": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+      "constructorCode": "608060405234801561001057600080fd5b5060fd8061001f6000396000f3fe",
+      "bodyBytecodeHash": "51d4856e637de55520a2b521579378c173d8547fd6d0c948cf821f8eb7db2920",
+      "localBytecodeHash": "84a1046d59a44b551a688f5e93c069319d74afcdb3d70ae831e945d10951a44c",
+      "deployedBytecodeHash": "84a1046d59a44b551a688f5e93c069319d74afcdb3d70ae831e945d10951a44c",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Box",
+          "path": "contracts/Box.sol",
+          "label": "value",
+          "astId": 3,
+          "type": "t_uint256",
+          "src": "42:21:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "open-zep-test/Box": [
+      {
+        "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+        "version": "1.0.0",
+        "implementation": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+        "admin": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24"
+  }
+}
