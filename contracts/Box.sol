@@ -1,13 +1,16 @@
 pragma solidity ^0.5.0;
 
-contract Box {
+// Import Ownable from the OpenZeppelin Contracts library
+import "@openzeppelin/contracts/ownership/Ownable.sol";
+
+contract Box is Ownable {
   uint256 private value;
 
   // Emitted when the stored value changes
   event ValueChanged(uint256 newValue);
 
   // Stores a new value in the contract
-  function store(uint256 newValue) public {
+  function store(uint256 newValue) public onlyOwner {
     value = newValue;
     emit ValueChanged(newValue);
   }
